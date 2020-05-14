@@ -1,11 +1,69 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    background-image:url("./images/412116-amazing-psychedelic-hd-wallpapers-1920x1080-for-mobile.jpg");
+    letter-spacing: 0.02em;
+    -webkit-font-smoothing: antialiased; 
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    align-self: center;
+
+}
+
 .grid {
     height: 560px;
     width: 560px;
     display: flex;
     flex-wrap: wrap;
+    align-self: center;
+    margin-top: 4%;
+
+}
+
+h1 {
+    margin-bottom: -10px;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.score-board{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: rgb(255, 248, 220, 0.6);
+    box-shadow: 0 2px 15px rgba(255,255,255, 5);
+    padding: 20px 30px;
 }
 
 .grid div {
     height: 70px;
     width: 70px;
+}
+
+.start {
+    margin-bottom: 25px;
+    cursor: pointer;
+    background-color: #3498db;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
 }
